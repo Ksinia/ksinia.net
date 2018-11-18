@@ -1,0 +1,91 @@
+{
+    "basics": {
+        "name": "Ksenia Gulyaeva",
+        "label": "Programmist",
+        "picture": "https://downloader.disk.yandex.ru/preview/ff29470e755ad4c32b1771821b0c211273d605abc28ea7afbd88d44a1c308a57/5bf17801/TN_4YQW2AR_5f6QeUgKmnMAAd5T-ybuzwpJMgzEf8ba1e4UeOp9m6Hn0F-NNLGR4wqi4Pw6G5vBZzwuu4B4qvg%3D%3D?uid=0&filename=ksenia.resume.HEIC&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&tknv=v2&size=200x200",
+        "email": "ksinon@gmail.com",
+        "phone": "+79263395382",
+        "birth": {
+            "date": "1984-04-12"
+        },
+        "website": "https://ksinia.net",
+        "summary": "I'm working outside of IT and want to start career as a programmist.</br>I've finished several Alghorythms and Data Structures, C# and Python courses and thirsty to find an opportunity to apply my skills.",
+        "location": {
+            "address": "",
+            "postalCode": "",
+            "city": "Moscow",
+            "countryCode": "RU",
+            "region": ""
+        },
+        "profiles": [
+            {
+                "network": "GitHub",
+                "username": "Ksinia",
+                "url": "https://github.com/Ksinia"
+            }
+        ]
+    },
+    "work": [
+    ],
+    "education": [
+        {
+            "institution": "Lomonosov Moscow State University",
+            "area": "Psychology",
+            "studyType": "Master degree",
+            "startDate": "2000-01-01",
+            "endDate": "2006-01-01",
+            "gpa": "",
+            "location": {
+                "city": "Moscow",
+                "countryCode": "RU"
+            },
+            "website": "https://www.msu.ru/en/",
+            "courses": [ "Chinese language internship in Peking University in 2005" ]
+        }
+    ],
+    "awards": [],
+    "publications": [
+        {
+            "name": "Planet Parade game for iOS",
+            "publisher": "AppStore",
+            "releaseDate": "2018-10-14",
+            "website": "https://itunes.apple.com/us/app/planet-parade/id1438973148",
+            "summary": "Mastermind-like videogame I've developed using Xamarin framework for C#"
+        },
+        {
+            "name": "Planet Parade game for Android",
+            "publisher": "GooglePlay",
+            "releaseDate": "2018-10-29",
+            "website": "https://play.google.com/store/apps/details?id=net.ksinia.planetparade",
+            "summary": "Android port of iOS game"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Core algorhytms and data structures",
+            "keywords": []
+        },
+        {
+            "name": "Python",
+            "keywords": []
+        },
+        {
+            "name": "C#",
+            "keywords": [
+                "Xamarin"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "fluent"
+        },
+        {
+            "language": "Russian",
+            "fluency": "native speaker"
+        }
+    ],
+    "interests": []
+}
+
