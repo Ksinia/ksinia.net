@@ -2,7 +2,7 @@
     "basics": {
         "name": "Ksenia Gulyaeva",
         "label": "Programmist",
-        "picture": "https://downloader.disk.yandex.ru/preview/ff29470e755ad4c32b1771821b0c211273d605abc28ea7afbd88d44a1c308a57/5bf17801/TN_4YQW2AR_5f6QeUgKmnMAAd5T-ybuzwpJMgzEf8ba1e4UeOp9m6Hn0F-NNLGR4wqi4Pw6G5vBZzwuu4B4qvg%3D%3D?uid=0&filename=ksenia.resume.HEIC&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&tknv=v2&size=200x200",
+        "picture": "https://ksinia.net/resume.jpg",
         "email": "ksinon@gmail.com",
         "phone": "+79263395382",
         "birth": {
@@ -32,8 +32,8 @@
             "institution": "Lomonosov Moscow State University",
             "area": "Psychology",
             "studyType": "Master degree",
-            "startDate": "2000-01-01",
-            "endDate": "2006-01-01",
+            "startDate": "2000-09-01",
+            "endDate": "2006-09-01",
             "gpa": "",
             "location": {
                 "city": "Moscow",
@@ -62,23 +62,18 @@
     ],
     "skills": [
         {
-            "name": "Core algorhytms and data structures",
-            "keywords": []
-        },
-        {
-            "name": "Python",
-            "keywords": []
-        },
-        {
-            "name": "C#",
-            "keywords": [
-                "Xamarin"
-            ]
+            "name": "Programming",
+            "keywords": ["Core algorhytms and data structures", "Python", "C#", "Xamarin"]
         }
+
     ],
     "languages": [
         {
             "language": "English",
+            "fluency": "fluent"
+        },
+        {
+            "language": "Chinese",
             "fluency": "fluent"
         },
         {

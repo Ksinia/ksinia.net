@@ -4,7 +4,9 @@ services:
     cv:
         build: ./cv
         image: paskal/jsonresume
-        command: export --theme kendall /tmp/gulyaeva.html
+        entrypoint: /bin/sh -c "/usr/bin/npm install -g jsonresume-theme-$${THEME} && resume export --theme $${THEME} /tmp/gulyaeva.html"
+        environment:
+          - THEME=spartanbentekkie
 
         logging:
           driver: json-file
