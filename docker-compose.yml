@@ -1,7 +1,7 @@
 version: '3'
 services:
 
-    cv:
+    build:
         build: ./cv
         image: paskal/jsonresume
         entrypoint: /bin/sh -c "/usr/bin/npm install -g jsonresume-theme-$${THEME} && resume export --theme $${THEME} /tmp/gulyaeva.html"
@@ -18,7 +18,7 @@ services:
             - ./public/cv/:/tmp/
             - ./cv/resume.json:/data/resume.json:ro
 
-    pdf:
+    build-pdf:
         image: pink33n/html-to-pdf
         command: --url https://ksinia.net/cv/gulyaeva.html --pdf gulyaeva.pdf
         privileged: true

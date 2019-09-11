@@ -1,20 +1,20 @@
 {
     "basics": {
         "name": "Ksenia Gulyaeva",
-        "label": "Programmist",
+        "label": "Junior Software Developer",
         "picture": "https://ksinia.net/resume.jpg",
         "email": "xsenia.gulyaeva@gmail.com",
-        "phone": "+79263395382",
+        "phone": "+31633636096",
         "birth": {
             "date": "1984-04-12"
         },
         "website": "https://ksinia.net",
-        "summary": "I used to work outside of IT and now looking for an opportunity to start a career of a programmer.<br />I've finished several Alghorythms and Data Structures, C# and Python courses and am eager to find an opportunity to apply my skills.<br />Latest finished course:<br /><a href=\"https://www.coursera.org/account/accomplishments/verify/F4ZG8YPMFVH2\" title=\"by Moscow Institute of Physics and Technology, Mail.Ru Group & ELDF on Coursera\">Diving into Python</a> (finished Feb 13, 2019), coursework: sockets client-server application using asyncio",
+        "summary": "I used to work outside of IT (procurement) and started a career of a software developer just before moving to Amsterdam in August 2019.<br />I've finished Algorithms and Data Structures, C# games development and Python courses and am eager to find an opportunity to apply my skills.<br />Latest finished course:<br /><a href=\"https://www.coursera.org/account/accomplishments/verify/F4ZG8YPMFVH2\" title=\"by Moscow Institute of Physics and Technology, Mail.Ru Group & ELDF on Coursera\">Diving into Python</a> (finished Feb 13, 2019), coursework: sockets client-server application using asyncio<br />Current course: Creating Python Web-services",
         "location": {
             "address": "",
             "postalCode": "",
-            "city": "Moscow",
-            "countryCode": "RU",
+            "city": "Amsterdam",
+            "countryCode": "NL",
             "region": ""
         },
         "profiles": [
@@ -26,12 +26,24 @@
         ]
     },
     "work": [
+        {
+            "company": "CJ VFX (visual effects studio)",
+            "position": "Junior Python Software Developer",
+            "website": "http://cjvfx.com/en/",
+            "startDate": "2019-06-01",
+            "endDate": "2019-08-01",
+            "summary": "My first programming job before moving to Amsterdam.",
+            "highlights": [
+                "Created backup/recovery script for corporate files library and visual interface for its configuration in PyQT;",
+                "Started design and implementation of VFX render manager interface, was not finished because I had to leave."
+            ]
+        }
     ],
     "education": [
         {
             "institution": "Lomonosov Moscow State University",
             "area": "Psychology",
-            "studyType": "Master degree",
+            "studyType": "Master's degree",
             "startDate": "2000-09-01",
             "endDate": "2006-09-01",
             "gpa": "",
