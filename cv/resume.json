@@ -9,7 +9,7 @@
             "date": "1984-04-12"
         },
         "website": "https://ksinia.net",
-        "summary": "I used to work outside of IT (procurement) and started a career of a software developer just before moving to Amsterdam in August 2019.<br />I've finished Algorithms and Data Structures, C# games development and Python courses and am eager to find an opportunity to apply my skills.<br />Latest finished course:<br /><a href=\"https://www.coursera.org/account/accomplishments/verify/F4ZG8YPMFVH2\" title=\"by Moscow Institute of Physics and Technology, Mail.Ru Group & ELDF on Coursera\">Diving into Python</a> (finished Feb 13, 2019), coursework: sockets client-server application using asyncio<br />Current course: Creating Python Web-services",
+        "summary": "I used to work outside of IT (procurement) and started a career of a software developer just before moving to Amsterdam in August 2019.<br />I've finished Algorithms and Data Structures, C# games development and Python courses and am eager to find an opportunity to apply my skills.",
         "location": {
             "address": "",
             "postalCode": "",
@@ -22,6 +22,11 @@
                 "network": "GitHub",
                 "username": "Ksinia",
                 "url": "https://github.com/Ksinia"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "Ksenia",
+                "url": "https://www.linkedin.com/in/ksenia-g/"
             }
         ]
     },
@@ -53,6 +58,14 @@
             },
             "website": "https://www.msu.ru/en/",
             "courses": [ "Chinese language internship in Peking University in 2005" ]
+        },
+        {
+            "institution": "Coursera/Moscow Institute of Physics and Technology & Mail.Ru Group",
+            "area": "Diving into Python",
+            "startDate": "2018-11-01",
+            "endDate": "2019-02-13",
+	    "website": "https://www.coursera.org/account/accomplishments/verify/F4ZG8YPMFVH2",
+            "courses": [ "Coursework: sockets client-server application using asyncio" ]
         }
     ],
     "awards": [],
