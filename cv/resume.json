@@ -9,7 +9,7 @@
             "date": "1984-04-12"
         },
         "website": "https://ksinia.net",
-        "summary": "I used to work outside of IT (procurement) and started a career of a software developer just before moving to Amsterdam in August 2019.<br />I've finished Algorithms and Data Structures, C# games development and Python courses and am eager to find an opportunity to apply my skills.",
+        "summary": "I am learning to code and applying my skills for personal projects for around 2 years already and want to start a software developer career now.<br />I used to work outside of IT (procurement), in 2018 I've created and published a mobile application for both iOS and Android and understood what I want to expand my programming knowledge and work in a team of like-minded people who are passionate about it as well.<br />I've finished a couple of Coursera courses and watched video series on programming fundamentals and now working on personal projects to get more experience, apply the knowledge I have already and to have fun.",
         "location": {
             "address": "",
             "postalCode": "",
@@ -37,7 +37,7 @@
             "website": "http://cjvfx.com/en/",
             "startDate": "2019-06-01",
             "endDate": "2019-08-01",
-            "summary": "My first programming job before moving to Amsterdam.",
+            "summary": "My first programming job in a visual effects studio supporting the needs of internal teams. Had to give it up because of relocation to Amsterdam.",
             "highlights": [
                 "Created backup/recovery script for corporate files library and visual interface for its configuration in PyQT;",
                 "Started design and implementation of VFX render manager interface, was not finished because I had to leave."
@@ -60,12 +60,17 @@
             "courses": [ "Chinese language internship in Peking University in 2005" ]
         },
         {
-            "institution": "Coursera/Moscow Institute of Physics and Technology & Mail.Ru Group",
-            "area": "Diving into Python",
+            "institution": "Coursera",
+            "area": "Python",
             "startDate": "2018-11-01",
             "endDate": "2019-02-13",
 	    "website": "https://www.coursera.org/account/accomplishments/verify/F4ZG8YPMFVH2",
-            "courses": [ "Coursework: sockets client-server application using asyncio" ]
+            "courses": [
+		    "Diving into Python, coursework: sockets client-server application using asyncio",
+                    "Creating web-services using Python",
+		    "Programming for Everybody (Getting Started with Python)",
+		    "Beginning Game Programming with C#"
+	    ]
         }
     ],
     "awards": [],
@@ -88,11 +93,15 @@
     "skills": [
         {
             "name": "Programming",
-            "keywords": ["Core algorhytms and data structures", "Python", "C#", "Xamarin"]
+            "keywords": ["Algorhytms", "Data structures", "Python", "C#", "Xamarin"]
         }
 
     ],
     "languages": [
+        {
+            "language": "Dutch",
+            "fluency": "elementary"
+        },
         {
             "language": "English",
             "fluency": "fluent"
