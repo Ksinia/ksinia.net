@@ -9,7 +9,7 @@
             "date": "1984-04-12"
         },
         "website": "https://ksinia.net",
-        "summary": "I am learning to code and applying my skills for personal projects for around 2 years already and want to start a software developer career now.<br />I used to work outside of IT (procurement), in 2018 I've created and published a mobile application for both iOS and Android and understood what I want to expand my programming knowledge and work in a team of like-minded people who are passionate about it as well.<br />I've finished a couple of Coursera courses and watched video series on programming fundamentals and now working on personal projects to get more experience, apply the knowledge I have already and to have fun.",
+        "summary": "I am learning to code and applying my skills for personal projects for around 2 years already and want to start a software developer career now.<br />I used to work outside of IT (procurement), in 2018 I've created and published a mobile application for both iOS and Android and understood that I want to expand my programming knowledge and work in a team of like-minded people who are passionate about it as well.<br />I've finished a couple of Coursera courses and watched video series on programming fundamentals and now working on personal projects to get more experience, apply the knowledge I have already and to have fun.",
         "location": {
             "address": "",
             "postalCode": "",
@@ -37,7 +37,7 @@
             "website": "http://cjvfx.com/en/",
             "startDate": "2019-06-01",
             "endDate": "2019-08-01",
-            "summary": "My first programming job in a visual effects studio supporting the needs of internal teams. Had to give it up because of relocation to Amsterdam.",
+            "summary": "My first programming job in a visual effects studio supporting the needs of internal teams. I had to give it up because of relocation to Amsterdam.",
             "highlights": [
                 "Created backup/recovery script for corporate files library and visual interface for its configuration in PyQT;",
                 "Started design and implementation of VFX render manager interface, was not finished because I had to leave."
