@@ -9,7 +9,7 @@
             "date": "1984-04-12"
         },
         "website": "https://ksinia.net",
-        "summary": "I am learning to code and applying my skills for personal projects for around 2 years already and want to start a software developer career now.<br />I used to work outside of IT (procurement), in 2018 I've created and published a mobile application for both iOS and Android and understood that I want to expand my programming knowledge and work in a team of like-minded people who are passionate about it as well.<br />I've finished a couple of Coursera courses and watched video series on programming fundamentals and now working on personal projects to get more experience, apply the knowledge I have already and to have fun.",
+        "summary": "I have a residence permit for the Netherlands which allows me to work there without restrictions valid till March 2024.<br />I am learning to code and applying my skills for personal projects for around 2 years already and want to start a software developer career now.<br />I used to work outside of IT (procurement), in 2018 I've created and published a mobile application for both iOS and Android and understood that I want to expand my programming knowledge and work in a team of like-minded people who are passionate about it as well.<br />I've finished a couple of Coursera courses and watched video series on programming fundamentals and now working on personal projects to get more experience, apply the knowledge I have already and to have fun.",
         "location": {
             "address": "",
             "postalCode": "",
@@ -32,6 +32,17 @@
     },
     "work": [
         {
+            "company": "Codaisseur",
+            "position": "Learning Web technologies",
+            "website": "https://codaisseur.com/",
+            "startDate": "2019-10-01",
+            "endDate": "2020-02-01",
+            "summary": "The immersive 11-week course on complete stacks composed of HTML & CSS, APIs, SQL, JS/Node (incl. ES6), React, Redux, Security & deployments, Typescript.<br />Project workflow includes code reviews and quality assessments, standard practices such as TDD, basics of product development, UX design, and domain modeling, working together in teams using tools like VSCode, Git, Github, and Slack",
+            "highlights": [
+                "Created backup/recovery script for corporate files library and visual interface for its configuration in PyQT;"
+            ]
+        },
+        {
             "company": "CJ VFX (visual effects studio)",
             "position": "Junior Python Software Developer",
             "website": "http://cjvfx.com/en/",
@@ -40,8 +51,16 @@
             "summary": "My first programming job in a visual effects studio supporting the needs of internal teams. I had to give it up because of relocation to Amsterdam.",
             "highlights": [
                 "Created backup/recovery script for corporate files library and visual interface for its configuration in PyQT;",
-                "Started design and implementation of VFX render manager interface, was not finished because I had to leave."
+                "The design and implementation of the VFX render manager interface, was not finished because I had to leave."
             ]
+        },
+        {
+            "company": "Electronics resellers",
+            "position": "Procurement",
+            "startDate": "2010-01-01",
+            "endDate": "2019-05-01",
+            "summary": "Before switching to Software Development for years I've worked in procurement. My responsibility was picking a set of goods to sell and communicate with Chinese production about manufacturing them.",
+            "highlights": []
         }
     ],
     "education": [
@@ -50,13 +69,13 @@
             "area": "Python",
             "startDate": "2018-11-01",
             "endDate": "2019-02-13",
-	    "website": "https://www.coursera.org/account/accomplishments/verify/F4ZG8YPMFVH2",
+            "website": "https://www.coursera.org/account/accomplishments/verify/F4ZG8YPMFVH2",
             "courses": [
-		    "Diving into Python, coursework: sockets client-server application using asyncio",
-                    "Creating web-services using Python",
-		    "Programming for Everybody (Getting Started with Python)",
-		    "Beginning Game Programming with C#"
-	    ]
+                "Diving into Python, coursework: sockets client-server application using asyncio",
+                "Creating web-services using Python",
+                "Programming for Everybody (Getting Started with Python)",
+                "Beginning Game Programming with C#"
+            ]
         },
         {
             "institution": "Lomonosov Moscow State University",
@@ -70,7 +89,9 @@
                 "countryCode": "RU"
             },
             "website": "https://www.msu.ru/en/",
-            "courses": [ "Chinese language internship in Peking University in 2005" ]
+            "courses": [
+                "Chinese language internship at Peking University in 2005"
+            ]
         }
     ],
     "awards": [],
@@ -80,22 +101,27 @@
             "publisher": "AppStore",
             "releaseDate": "2018-10-14",
             "website": "https://itunes.apple.com/us/app/planet-parade/id1438973148",
-            "summary": "Mastermind-like videogame I've developed using Xamarin framework for C#"
+            "summary": "Mastermind-like video game I've developed using Xamarin framework for C#"
         },
         {
             "name": "Planet Parade game for Android",
             "publisher": "GooglePlay",
             "releaseDate": "2018-10-29",
             "website": "https://play.google.com/store/apps/details?id=net.ksinia.planetparade",
-            "summary": "Android port of iOS game"
+            "summary": "Android port of the iOS game"
         }
     ],
     "skills": [
         {
             "name": "Programming",
-            "keywords": ["Algorhytms", "Data structures", "Python", "C#", "Xamarin"]
+            "keywords": [
+                "Algorithms",
+                "Data structures",
+                "Python",
+                "C#",
+                "Xamarin"
+            ]
         }
-
     ],
     "languages": [
         {
@@ -117,4 +143,3 @@
     ],
     "interests": []
 }
-
