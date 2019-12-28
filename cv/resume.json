@@ -42,7 +42,9 @@
             "startDate": "2019-10-01",
             "endDate": "2020-02-01",
             "summary": "The immersive 11-week course on complete stacks composed of HTML & CSS, APIs, SQL, JS/Node (incl. ES6), React, Redux, Security & deployments, Typescript.<br />Project workflow includes code reviews and quality assessments, standard practices such as TDD, basics of product development, UX design, and domain modeling, working together in teams using tools like VSCode, Git, Github, and Slack",
-            "highlights": []
+            "highlights": [
+                "Over the course I've created and published numerous project in my GitHub account: https://github.com/ksinia/"
+            ]
         },
         {
             "company": "CJ VFX (visual effects studio)",
