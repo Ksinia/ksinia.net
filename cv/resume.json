@@ -42,9 +42,7 @@
             "startDate": "2019-10-01",
             "endDate": "2020-02-01",
             "summary": "The immersive 11-week course on complete stacks composed of HTML & CSS, APIs, SQL, JS/Node (incl. ES6), React, Redux, Security & deployments, Typescript.<br />Project workflow includes code reviews and quality assessments, standard practices such as TDD, basics of product development, UX design, and domain modeling, working together in teams using tools like VSCode, Git, Github, and Slack",
-            "highlights": [
-                "Created backup/recovery script for corporate files library and visual interface for its configuration in PyQT;"
-            ]
+            "highlights": []
         },
         {
             "company": "CJ VFX (visual effects studio)",
