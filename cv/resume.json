@@ -1,4 +1,7 @@
 {
+    "meta": {
+        "canonical": "https://github.com/Ksinia/ksinia.net/blob/master/cv/resume.json"
+    },
     "basics": {
         "name": "Ksenia Gulyaeva",
         "label": "Junior Software Developer",
@@ -35,6 +38,7 @@
             "company": "Codaisseur",
             "position": "Learning Web technologies",
             "website": "https://codaisseur.com/",
+            "location": "Amsterdam",
             "startDate": "2019-10-01",
             "endDate": "2020-02-01",
             "summary": "The immersive 11-week course on complete stacks composed of HTML & CSS, APIs, SQL, JS/Node (incl. ES6), React, Redux, Security & deployments, Typescript.<br />Project workflow includes code reviews and quality assessments, standard practices such as TDD, basics of product development, UX design, and domain modeling, working together in teams using tools like VSCode, Git, Github, and Slack",
@@ -46,6 +50,7 @@
             "company": "CJ VFX (visual effects studio)",
             "position": "Junior Python Software Developer",
             "website": "http://cjvfx.com/en/",
+            "location": "Moscow",
             "startDate": "2019-06-01",
             "endDate": "2019-08-01",
             "summary": "My first programming job in a visual effects studio supporting the needs of internal teams. I had to give it up because of relocation to Amsterdam.",
@@ -57,6 +62,7 @@
         {
             "company": "Electronics resellers",
             "position": "Procurement",
+            "location": "Moscow",
             "startDate": "2010-01-01",
             "endDate": "2019-05-01",
             "summary": "Before switching to Software Development for years I've worked in procurement. My responsibility was picking a set of goods to sell and communicate with Chinese production about manufacturing them.",
@@ -118,8 +124,30 @@
                 "Algorithms",
                 "Data structures",
                 "Python",
+                "Javascript",
+                "Typescript",
                 "C#",
-                "Xamarin"
+                "Client-server applications",
+                "Building and consuming APIs"
+            ]
+        },
+        {
+            "name": "Web",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "SQL",
+                "NodeJS",
+                "React",
+                "Redux"
+            ]
+        },
+        {
+            "name": "Tools",
+            "keywords": [
+                "VSCode",
+                "Git",
+                "GitHub"
             ]
         }
     ],
