@@ -11,14 +11,14 @@
         "birth": {
             "date": "1984-04-12"
         },
-        "website": "https://ksinia.net",
-        "summary": "I have a residence permit for the Netherlands which allows me to work there without restrictions valid till March 2024.<br />I am learning to code and applying my skills for personal projects for around 2 years already and want to start a software developer career now.<br />I used to work outside of IT (procurement), in 2018 I've created and published a mobile application for both iOS and Android and understood that I want to expand my programming knowledge and work in a team of like-minded people who are passionate about it as well.<br />I've finished a couple of Coursera courses and watched video series on programming fundamentals and now working on personal projects to get more experience, apply the knowledge I have already and to have fun.",
+        "website": "https://ksinia.net/cv/",
+        "summary": "I am learning to code and applying my skills for personal projects for around 2 years already and want to start a software developer career now.<br />I've finished a couple of Coursera courses and watched video series on programming fundamentals and now working on personal projects to get more experience, apply the knowledge I have already and to have fun.",
         "location": {
             "address": "",
             "postalCode": "",
             "city": "Amsterdam",
             "countryCode": "NL",
-            "region": ""
+            "region": "Residence permit for the Netherlands valid till March 2024"
         },
         "profiles": [
             {
@@ -120,6 +120,7 @@
     "skills": [
         {
             "name": "Programming",
+            "level": "Junior",
             "keywords": [
                 "Algorithms",
                 "Data structures",
@@ -158,7 +159,7 @@
         },
         {
             "language": "English",
-            "fluency": "fluent"
+            "fluency": "intermediate"
         },
         {
             "language": "Chinese",
