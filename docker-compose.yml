@@ -8,14 +8,11 @@ services:
         - /bin/sh
         - -c
         - |
-         apk add git && \
-         /usr/bin/npm install -g $${USER}/jsonresume-theme-$${THEME} && \
-         resume export --theme $${THEME} /tmp/gulyaeva.html && \
-         sed -i 's/"Helvetica Neue", Helvetica/Calibri,Candara,Segoe,Segoe UI,Optima/' /tmp/gulyaeva.html && \
-         sed -i 's/<div class=\"bar\"><\/div>//' /tmp/gulyaeva.html && \
-         sed -i 's/13px/15px/' /tmp/gulyaeva.html
+         resume export --theme $${THEME} /tmp/resume_output/gulyaeva.html && \
+         sed -i 's/"Helvetica Neue", Helvetica/Calibri,Candara,Segoe,Segoe UI,Optima/' /tmp/resume_output/gulyaeva.html && \
+         sed -i 's/<div class=\"bar\"><\/div>//' /tmp/resume_output/gulyaeva.html && \
+         sed -i 's/13px/15px/' /tmp/resume_output/gulyaeva.html
         environment:
-          - USER=phoinixi
           - THEME=spartan
 
         logging:
@@ -25,7 +22,7 @@ services:
             max-file: "5"
 
         volumes:
-            - ./public/cv/:/tmp/
+            - ./public/cv/:/tmp/resume_output/
             - ./cv/resume.json:/data/resume.json:ro
 
     build-pdf:
