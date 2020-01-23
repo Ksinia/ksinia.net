@@ -2,7 +2,6 @@ version: '2'
 services:
 
     build:
-        build: ./cv
         image: paskal/jsonresume
         entrypoint:
         - /bin/sh
@@ -24,6 +23,22 @@ services:
         volumes:
             - ./public/cv/:/tmp/resume_output/
             - ./cv/resume.json:/data/resume.json:ro
+
+    serve:
+        image: paskal/jsonresume
+        command: serve --theme=spartan
+
+        logging:
+          driver: json-file
+          options:
+            max-size: "10m"
+            max-file: "5"
+
+        volumes:
+            - ./cv/resume.json:/data/resume.json:ro
+
+        ports:
+          - "4000:4000"
 
     build-pdf:
         image: pink33n/html-to-pdf
