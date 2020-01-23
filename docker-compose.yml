@@ -13,13 +13,6 @@ services:
          sed -i 's/13px/15px/' /tmp/resume_output/gulyaeva.html
         environment:
           - THEME=spartan
-
-        logging:
-          driver: json-file
-          options:
-            max-size: "10m"
-            max-file: "5"
-
         volumes:
             - ./public/cv/:/tmp/resume_output/
             - ./cv/resume.json:/data/resume.json:ro
@@ -27,16 +20,13 @@ services:
     serve:
         image: paskal/jsonresume
         command: serve --theme=spartan
-
         logging:
           driver: json-file
           options:
             max-size: "10m"
             max-file: "5"
-
         volumes:
             - ./cv/resume.json:/data/resume.json:ro
-
         ports:
           - "4000:4000"
 
@@ -44,12 +34,5 @@ services:
         image: pink33n/html-to-pdf
         command: --url https://ksinia.net/cv/gulyaeva.html --pdf gulyaeva.pdf
         privileged: true
-
-        logging:
-          driver: json-file
-          options:
-            max-size: "10m"
-            max-file: "5"
-
         volumes:
             - ./public/cv:/tmp/html-to-pdf
