@@ -8,18 +8,16 @@ services:
         - -c
         - |
          resume export --theme $${THEME} /tmp/resume_output/gulyaeva.html && \
-         sed -i 's/"Helvetica Neue", Helvetica/Calibri,Candara,Segoe,Segoe UI,Optima/' /tmp/resume_output/gulyaeva.html && \
-         sed -i 's/<div class=\"bar\"><\/div>//' /tmp/resume_output/gulyaeva.html && \
-         sed -i 's/13px/15px/' /tmp/resume_output/gulyaeva.html
+         sed -i 's/Work Experience/Experience/' /tmp/resume_output/gulyaeva.html
         environment:
-          - THEME=spartan
+          - THEME=kendall
         volumes:
             - ./public/cv/:/tmp/resume_output/
             - ./cv/resume.json:/data/resume.json:ro
 
     serve:
         image: paskal/jsonresume
-        command: serve --theme=spartan
+        command: serve --theme=kendall
         logging:
           driver: json-file
           options:
