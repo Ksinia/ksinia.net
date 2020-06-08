@@ -43,10 +43,10 @@
             "startDate": "2020-02-01",
             "summary": "After finishing Codaisseur I'm working 30+ hours a week on my personal projects using technologies I already know and new ones I want or need to use.",
             "highlights": [
-                "https://erudit.ksinia.net<br />Erudite: Scrabble-like mobile-friendly online multiplayer word game, up to 8 players in a room.<br />My most complex project up to date, used daily by dozens of people. I've learned a lot of things during the lifetime of the project, both about development, migrations, maintenance of the project, as well as about the customer interactions and prioritizing bugfixes and features development.",
-                "https://scrolling-platformer.netlify.app<br />Johny Flame: 2D side-scrolling platform game created for learning Phaser game framework and trying out how hard would it be to create a platformer on a web page.<br />+ TypeScript Phaser Parcel",
-                "https://melodic-dictation.netlify.app<br />Melodic Dictation: full-stack app for ear training by writing melodic dictations, e.g. write down notes for music you hear.<br />+ abcjs, web-midi-player",
-                "https://game31.netlify.app<br />Thirty-One online multiplayer card game, mobile-friendly. Created in collaboration with a teammate.<br />Node.js, React, Redux, Material-UI, Express.js, Sequelize"
+                "<a href=\"https://erudit.ksinia.net\" target=\"_blank\">https://erudit.ksinia.net</a><br />Erudite: Scrabble-like mobile-friendly online multiplayer word game, up to 8 players in a room.<br />My most complex project up to date, used daily by dozens of people. I've learned a lot of things during the lifetime of the project, both about development, migrations, maintenance of the project, as well as about the customer interactions and prioritizing bugfixes and features development.",
+                "<a href=\"https://scrolling-platformer.netlify.app\" target=\"_blank\">https://scrolling-platformer.netlify.app</a><br />Johny Flame: 2D side-scrolling platform game created for learning Phaser game framework and trying out how hard would it be to create a platformer on a web page.<br />+ TypeScript Phaser Parcel",
+                "<a href=\"https://melodic-dictation.netlify.app\" target=\"_blank\">https://melodic-dictation.netlify.app</a><br />Melodic Dictation: full-stack app for ear training by writing melodic dictations, e.g. write down notes for music you hear.<br />+ abcjs, web-midi-player",
+                "<a href=\"https://game31.netlify.app\" target=\"_blank\">https://game31.netlify.app</a><br />Thirty-One online multiplayer card game, mobile-friendly. Created in collaboration with a teammate.<br />Node.js, React, Redux, Material-UI, Express.js, Sequelize"
             ]
         },
         {
@@ -59,7 +59,7 @@
             "summary": "The immersive 11-week course on complete stacks composed of HTML & CSS, APIs, SQL, JS/Node (incl. ES6), React, Redux, TypeScript, security & deployments.<br />Project workflow includes code reviews and quality assessments, standard practices such as TDD, basics of product development, UX design, and domain modeling, working together in teams using tools like VSCode, Git, Github, and Slack. <br />Average graduation rate for academy is just 65%",
             "highlights": [
                 "Got maximum grade for every assignment during the course;",
-                "Over the course I've created and published numerous project in my GitHub account: https://github.com/ksinia/"
+                "Over the course I've created and published numerous project in my GitHub account: <a href=\"https://github.com/ksinia/\" target=\"_blank\">https://github.com/ksinia/</a>"
             ]
         },
         {
