@@ -33,4 +33,4 @@ services:
         command: --url https://ksinia.net/cv/gulyaeva.html --pdf gulyaeva.pdf
         privileged: true
         volumes:
-            - ./public/cv:/tmp/html-to-pdf
+            - ./public/cv:/workspace
