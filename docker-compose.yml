@@ -24,7 +24,7 @@ services:
 
     build-pdf:
         image: pink33n/html-to-pdf
-        command: --url file:////workspace/gulyaeva.html --pdf gulyaeva.pdf
+        command: --url file:///workspace/gulyaeva.html --pdf gulyaeva.pdf
         privileged: true
         volumes:
             - ./public/cv:/workspace
