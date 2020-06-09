@@ -6,7 +6,7 @@ services:
         command: export --theme kendall-ksenia /tmp/resume_output/gulyaeva.html
         volumes:
             - ./public/cv/:/tmp/resume_output/
-            - ./cv/resume.json:/data/resume.json:ro
+            - ./resume.json:/data/resume.json:ro
 
     serve:
         image: paskal/jsonresume
@@ -18,13 +18,13 @@ services:
             max-size: "10m"
             max-file: "5"
         volumes:
-            - ./cv/resume.json:/data/node_modules/jsonresume-theme-kendall-ksenia/resume.json:ro
+            - ./resume.json:/data/node_modules/jsonresume-theme-kendall-ksenia/resume.json:ro
         ports:
           - "4000:4000"
 
     build-pdf:
         image: pink33n/html-to-pdf
-        command: --url https://ksinia.net/cv/gulyaeva.html --pdf gulyaeva.pdf
+        command: --url file:////workspace/gulyaeva.html --pdf gulyaeva.pdf
         privileged: true
         volumes:
             - ./public/cv:/workspace

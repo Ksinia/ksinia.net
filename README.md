@@ -1,4 +1,4 @@
-Source code for [https://ksinia.net](https://ksinia.net).
+It's a source for [my resume](https://ksinia.net/cv/) build by [JSON Resume](https://jsonresume.org/) technology with [kendall theme](https://github.com/Ksinia/jsonresume-theme-kendall) with my alterations.
 
 ### How to build a resume
 
