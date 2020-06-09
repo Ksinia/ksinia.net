@@ -3,29 +3,22 @@ services:
 
     build:
         image: paskal/jsonresume
-        entrypoint:
-        - /bin/sh
-        - -c
-        - |
-         resume export --theme $${THEME} /tmp/resume_output/gulyaeva.html && \
-         sed -i 's/Work Experience/Experience/' /tmp/resume_output/gulyaeva.html &&\
-         sed -i 's/Publications/Projects/' /tmp/resume_output/gulyaeva.html
-        environment:
-          - THEME=kendall
+        command: export --theme kendall-ksenia /tmp/resume_output/gulyaeva.html
         volumes:
             - ./public/cv/:/tmp/resume_output/
             - ./cv/resume.json:/data/resume.json:ro
 
     serve:
         image: paskal/jsonresume
-        command: serve --theme=kendall
+        working_dir: /data/node_modules/jsonresume-theme-kendall-ksenia
+        command: serve
         logging:
           driver: json-file
           options:
             max-size: "10m"
             max-file: "5"
         volumes:
-            - ./cv/resume.json:/data/resume.json:ro
+            - ./cv/resume.json:/data/node_modules/jsonresume-theme-kendall-ksenia/resume.json:ro
         ports:
           - "4000:4000"
 
