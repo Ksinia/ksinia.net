@@ -1,210 +1,214 @@
 {
-    "meta": {
-        "theme": "kendall",
-        "canonical": "https://github.com/Ksinia/ksinia.net/blob/master/cv/resume.json"
+  "meta": {
+    "theme": "kendall",
+    "canonical": "https://github.com/Ksinia/ksinia.net/blob/master/cv/resume.json"
+  },
+  "basics": {
+    "name": "Ksenia Gulyaeva",
+    "label": "Full-Stack / Frontend Developer",
+    "picture": "https://ksinia.net/resume.jpg",
+    "email": "xsenia.gulyaeva@gmail.com",
+    "phone": "+31633636096",
+    "birth": {
+      "date": "1984-04-12"
     },
-    "basics": {
-        "name": "Ksenia Gulyaeva",
-        "label": "Full-stack|Frontend Developer",
-        "picture": "https://ksinia.net/resume.jpg",
-        "email": "xsenia.gulyaeva@gmail.com",
-        "phone": "+31633636096",
-        "birth": {
-            "date": "1984-04-12"
-        },
-        "website": "https://ksinia.net/cv/",
-        "summary": "I am a fast-learning Web Developer who has experience developing React web-applications with Node.js backend, as well as working with plain JavaScript and TypeScript.<br />I'm open to opportunities to learn new technologies and pick up a new backend|mobile language.<br />I have a spouse visa which allows me to work in the Netherlands without restrictions.",
-        "location": {
-            "address": "",
-            "postalCode": "1059AW",
-            "city": "Amsterdam",
-            "countryCode": "",
-            "region": "NL"
-        },
-        "profiles": [
-            {
-                "network": "GitHub",
-                "username": "Ksinia",
-                "url": "https://github.com/Ksinia"
-            },
-            {
-                "network": "LinkedIn",
-                "username": "Ksenia Gulyaeva",
-                "url": "https://www.linkedin.com/in/ksenia-g/"
-            }
-        ]
+    "website": "https://ksinia.net/cv/",
+    "summary": "I am a fast-learning Web Developer who has experience developing React web-applications with Node.js backend, as well as working with plain JavaScript and TypeScript.<br />I'm open to opportunities to learn new technologies and pick up a new backend/mobile language.<br />I have a spouse visa which allows me to work in the Netherlands without restrictions.",
+    "location": {
+      "address": "",
+      "postalCode": "1059AW",
+      "city": "Amsterdam",
+      "countryCode": "",
+      "region": "NL"
     },
-    "work": [
-        {
-            "company": "Self-employed",
-            "position": "Full-Stack developer",
-            "website": "https://github.com/Ksinia",
-            "location": "Amsterdam",
-            "startDate": "2020-02-01",
-            "summary": "After finishing Codaisseur I'm working 30+ hours a week on my personal projects using technologies I already know and new ones I want or need to use.",
-            "highlights": [
-                "<a href=\"https://erudit.ksinia.net\" target=\"_blank\">https://erudit.ksinia.net</a><br />Erudite: Scrabble-like mobile-friendly online multiplayer word game, up to 8 players in a room.<br />My most complex project up to date, used daily by a dozen people. I've learned a lot of things during the lifetime of the project, both about development, migrations, maintenance of the project, as well as about the customer interactions and prioritizing bugfixes and features development.",
-                "<a href=\"https://scrolling-platformer.netlify.app\" target=\"_blank\">https://scrolling-platformer.netlify.app</a><br />Johny Flame: 2D side-scrolling platform game created for learning the Phaser game framework and trying out how hard would it be to create a platformer on a web page.<br />New technologies used: TypeScript Phaser Parcel",
-                "<a href=\"https://melodic-dictation.netlify.app\" target=\"_blank\">https://melodic-dictation.netlify.app</a><br />Melodic Dictation: full-stack app for ear training by writing melodic dictations, e.g. write down notes for music you hear.<br />New libraries used: abcjs, web-midi-player",
-                "<a href=\"http://stats.radio-t.com/rlb/\" target=\"_blank\">http://stats.radio-t.com/rlb/</a><br />RLB-stats: pure JS frontend for existing podcast downloading statistics project written in Go. I created a web-page which supports four different JS charts libraries for visualizing the same data in different ways.<br />New libraries used: TauCharts, ECharts, AnyCharts, ApexCharts",
-                "<a href=\"https://game31.netlify.app\" target=\"_blank\">https://game31.netlify.app</a><br />Thirty-One online multiplayer card game, mobile-friendly. Created in collaboration with a teammate.<br />New technologies used: Node.js, React, Redux, Material-UI, Express.js, Sequelize"
-            ]
-        },
-        {
-            "company": "Codaisseur",
-            "position": "Full-Stack Developer Trainee",
-            "website": "https://codaisseur.com/",
-            "location": "Amsterdam",
-            "startDate": "2019-10-01",
-            "endDate": "2020-02-01",
-            "summary": "The immersive 11-week on-site 40 hours a week course on full-stack development.<br />Project workflow includes code reviews and quality assessments, standard practices such as basics of product development, UX design, and domain modeling, working together in teams using tools like VSCode, Git, Github, and Slack.<br />The average graduation rate for the academy is just 65%",
-            "highlights": [
-                "Got maximum grade for every assignment during the course;",
-                "Over the course, I've created and published numerous project in my GitHub account: <a href=\"https://github.com/ksinia/\" target=\"_blank\">https://github.com/ksinia/</a>"
-            ]
-        },
-        {
-            "company": "CJ VFX (visual effects studio)",
-            "position": "Python Software Developer",
-            "website": "http://cjvfx.com/en/",
-            "location": "Moscow",
-            "startDate": "2019-06-01",
-            "endDate": "2019-08-01",
-            "summary": "My first programming job in a visual effects studio supporting the needs of internal teams. I had to give it up because of relocation to Amsterdam.",
-            "highlights": [
-                "Created backup/recovery script for corporate files library and visual interface for its configuration in PyQT;",
-                "Started the design and implementation of the VFX render manager interface."
-            ]
-        },
-        {
-            "company": "Tesler Electronics, Paolo Conte, Revontuli Toys OY",
-            "position": "Procurement manager",
-            "location": "Moscow",
-            "startDate": "2010-01-01",
-            "endDate": "2019-05-01",
-            "summary": "Before switching to Software Development I've worked in procurement. My responsibility was searching for suppliers in China, negotiating purchasing prices and other conditions with them, controlling the orders from placement until delivery.",
-            "highlights": []
-        }
-    ],
-    "education": [
-        {
-            "institution": "Codaisseur",
-            "area": "Web development",
-            "startDate": "2019-10-01",
-            "endDate": "2020-02-01",
-            "website": "https://www.coursera.org/account/accomplishments/verify/F4ZG8YPMFVH2",
-            "courses": [
-                "HTML & CSS",
-                "JavaScript and TypeScript",
-                "APIs usage and development",
-                "Postgres, Sequilize, SQL",
-                "Node.js (incl. ES6)",
-                "React, Redux"
-            ]
-        },
-        {
-            "institution": "Coursera",
-            "area": "Software Development",
-            "startDate": "2018-11-01",
-            "endDate": "2019-02-13",
-            "website": "https://www.coursera.org/account/accomplishments/verify/F4ZG8YPMFVH2",
-            "courses": [
-                "Diving into Python, coursework: sockets client-server application using asyncio",
-                "Creating web-services using Python",
-                "Programming for Everybody (Getting Started with Python)",
-                "Beginning Game Programming with C#"
-            ]
-        },
-        {
-            "institution": "Lomonosov Moscow State University",
-            "area": "Psychology",
-            "studyType": "Master's degree",
-            "startDate": "2000-09-01",
-            "endDate": "2006-09-01",
-            "gpa": "",
-            "location": {
-                "city": "Moscow",
-                "countryCode": "RU"
-            },
-            "website": "https://www.msu.ru/en/",
-            "courses": [
-                "Chinese language internship at Peking University in 2005"
-            ]
-        }
-    ],
-    "awards": [],
-    "publications": [
-        {
-            "name": "Planet Parade game for iOS",
-            "publisher": "AppStore",
-            "releaseDate": "2018-10-14",
-            "website": "https://itunes.apple.com/us/app/planet-parade/id1438973148",
-            "summary": "Mastermind-like video game I've developed using Xamarin framework for C#"
-        },
-        {
-            "name": "Planet Parade game for Android",
-            "publisher": "GooglePlay",
-            "releaseDate": "2018-10-29",
-            "website": "https://play.google.com/store/apps/details?id=net.ksinia.planetparade",
-            "summary": "Android port of the iOS game"
-        }
-    ],
-    "skills": [
-        {
-            "name": "Programming",
-            "level": "",
-            "keywords": [
-                "JavaScript",
-                "TypeScript",
-                "Python",
-                "Algorithms",
-                "Data structures",
-                "Client-server applications",
-                "Building and consuming APIs"
-            ]
-        },
-        {
-            "name": "Web",
-            "keywords": [
-                "Node.js",
-                "React.js",
-                "Redux",
-                "ExpressJS",
-                "Material-UI",
-                "HTML",
-                "CSS",
-                "REST APIs",
-                "Sequelize",
-                "Postgres",
-                "SQL"
-            ]
-        },
-        {
-            "name": "Tools",
-            "keywords": [
-                "VSCode",
-                "Git",
-                "GitHub"
-            ]
-        }
-    ],
-    "languages": [
-        {
-            "language": "Dutch",
-            "fluency": "elementary"
-        },
-        {
-            "language": "English",
-            "fluency": "fluent"
-        },
-        {
-            "language": "Chinese",
-            "fluency": "fluent"
-        },
-        {
-            "language": "Russian",
-            "fluency": "native speaker"
-        }
-    ],
-    "interests": []
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "Ksinia",
+        "url": "https://github.com/Ksinia"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Ksenia Gulyaeva",
+        "url": "https://www.linkedin.com/in/ksenia-g/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Self-employed",
+      "position": "Full-Stack developer",
+      "website": "https://github.com/Ksinia",
+      "location": "Amsterdam",
+      "startDate": "2020-02-01",
+      "summary": "After finishing Codaisseur I'm working 30+ hours a week on my personal projects using technologies I already know and new ones I want or need to use.",
+      "highlights": [
+        "<a href=\"https://erudit.ksinia.net\" target=\"_blank\">https://erudit.ksinia.net</a><br />Erudite: Scrabble-like mobile-friendly online multiplayer word game, up to 8 players in a room.<br />My most complex project to date, which is used daily by a dozen people. I've learned a lot of things during the lifetime of the project, both about development, migrations, maintenance of the project, as well as about the customer interactions and prioritizing bugfixes and features development.",
+        "<a href=\"https://scrolling-platformer.netlify.app\" target=\"_blank\">https://scrolling-platformer.netlify.app</a><br />Johny Flame: 2D side-scrolling platform game created for learning the Phaser game framework and trying out how hard would it be to create a platformer on a web page.<br />New technologies used: TypeScript Phaser Parcel",
+        "<a href=\"https://melodic-dictation.netlify.app\" target=\"_blank\">https://melodic-dictation.netlify.app</a><br />Melodic Dictation: full-stack app for ear training by writing melodic dictations, e.g. write down notes for music you hear.<br />New libraries used: abcjs, web-midi-player",
+        "<a href=\"http://stats.radio-t.com/rlb/\" target=\"_blank\">http://stats.radio-t.com/rlb/</a><br />RLB-stats: pure JS frontend for existing podcast downloading statistics project written in Go. I created a web-page which supports four different JS charts libraries for visualizing the same data in different ways.<br />New libraries used: TauCharts, ECharts, AnyCharts, ApexCharts",
+        "<a href=\"https://game31.netlify.app\" target=\"_blank\">https://game31.netlify.app</a><br />Thirty-One online multiplayer card game, mobile-friendly. Created in collaboration with a teammate.<br />New technologies used: Node.js, React, Redux, Material-UI, Express.js, Sequelize"
+      ]
+    },
+    {
+      "company": "Codaisseur",
+      "position": "Full-Stack Developer Trainee",
+      "website": "https://codaisseur.com/",
+      "location": "Amsterdam",
+      "startDate": "2019-10-01",
+      "endDate": "2020-02-01",
+      "summary": "The immersive 11-week on-site 40 hours a week course on full-stack development.<br />Project workflow includes code reviews and quality assessments, standard practices such as basics of product development, UX design, and domain modeling, working together in teams using tools like VSCode, Git, Github, and Slack.<br />The average graduation rate for the academy is just 65%",
+      "highlights": [
+        "Got maximum grade for every assignment during the course;",
+        "Over the course, I've created and published numerous project in my GitHub account: <a href=\"https://github.com/ksinia/\" target=\"_blank\">https://github.com/ksinia/</a>"
+      ]
+    },
+    {
+      "company": "CJ VFX (visual effects studio)",
+      "position": "Python Software Developer",
+      "website": "http://cjvfx.com/en/",
+      "location": "Moscow",
+      "startDate": "2019-06-01",
+      "endDate": "2019-08-01",
+      "summary": "My first programming job in a visual effects studio supporting the needs of internal teams. I had to give it up because of relocation to Amsterdam.",
+      "highlights": [
+        "Created backup/recovery script for corporate files library and visual interface for its configuration in PyQT;",
+        "Started the design and implementation of the VFX render manager interface."
+      ]
+    },
+    {
+      "company": "Tesler Electronics, Paolo Conte, Revontuli Toys OY",
+      "position": "Procurement manager",
+      "location": "Moscow",
+      "startDate": "2010-01-01",
+      "endDate": "2019-05-01",
+      "summary": "Before switching to Software Development I've been working in procurement. I was searching for suppliers in China, negotiating purchasing prices and other conditions with them, localizing product's packaging and manuals, controlling the orders from placement until delivery.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Codaisseur Academy for Full-Stack Web Development",
+      "area": "Web development",
+      "startDate": "2019-10-01",
+      "endDate": "2020-02-01",
+      "website": "https://www.coursera.org/account/accomplishments/verify/F4ZG8YPMFVH2",
+      "courses": [
+        "HTML & CSS",
+        "JavaScript and TypeScript",
+        "APIs usage and development",
+        "Postgres, Sequilize, SQL",
+        "Node.js (incl. ES6)",
+        "React, Redux"
+      ]
+    },
+    {
+      "institution": "Coursera",
+      "area": "Software Development",
+      "startDate": "2018-11-01",
+      "endDate": "2019-02-13",
+      "website": "https://www.coursera.org/account/accomplishments/verify/F4ZG8YPMFVH2",
+      "courses": [
+        "Diving into Python, coursework: sockets client-server application using asyncio",
+        "Creating web-services using Python",
+        "Programming for Everybody (Getting Started with Python)",
+        "Beginning Game Programming with C#"
+      ]
+    },
+    {
+      "institution": "Lomonosov Moscow State University",
+      "area": "Psychology",
+      "studyType": "Master's degree",
+      "startDate": "2000-09-01",
+      "endDate": "2006-09-01",
+      "gpa": "",
+      "location": {
+        "city": "Moscow",
+        "countryCode": "RU"
+      },
+      "website": "https://www.msu.ru/en/",
+      "courses": ["Chinese language internship at Peking University in 2005"]
+    }
+  ],
+  "awards": [],
+  "publications": [
+    {
+      "name": "Planet Parade game for iOS",
+      "publisher": "AppStore",
+      "releaseDate": "2018-10-14",
+      "website": "https://itunes.apple.com/us/app/planet-parade/id1438973148",
+      "summary": "Mastermind-like video game I've developed using Xamarin framework for C#"
+    },
+    {
+      "name": "Planet Parade game for Android",
+      "publisher": "GooglePlay",
+      "releaseDate": "2018-10-29",
+      "website": "https://play.google.com/store/apps/details?id=net.ksinia.planetparade",
+      "summary": "Android port of the iOS game"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "",
+      "keywords": [
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "Algorithms",
+        "Data structures",
+        "Client-server applications",
+        "Building and consuming APIs"
+      ]
+    },
+    {
+      "name": "Web",
+      "keywords": [
+        "Node.js",
+        "React.js",
+        "Redux",
+        "ExpressJS",
+        "Material-UI",
+        "HTML",
+        "CSS",
+        "REST APIs",
+        "Sequelize",
+        "Postgres",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Tools",
+      "keywords": ["VSCode", "Git", "GitHub"]
+    },
+    {
+      "name": "Soft skills",
+      "keywords": [
+        "Detail-oriented",
+        "Responsible",
+        "Fastlearner - became a web developer in 11 weeks",
+        "Participating in open-source projects with distributed teams",
+        "Good at multitasking - successful in a previous career"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Dutch",
+      "fluency": "elementary"
+    },
+    {
+      "language": "English",
+      "fluency": "fluent"
+    },
+    {
+      "language": "Chinese",
+      "fluency": "fluent"
+    },
+    {
+      "language": "Russian",
+      "fluency": "native speaker"
+    }
+  ],
+  "interests": []
 }
