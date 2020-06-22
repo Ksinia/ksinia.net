@@ -7,3 +7,5 @@ It's a source for [my resume](https://ksinia.net/cv/) build by [JSON Resume](htt
 ### How to serve resume locally
 
 `docker-compose up serve`
+
+Then resume will be available by [http://127.0.0.1:4000](http://127.0.0.1:4000)
