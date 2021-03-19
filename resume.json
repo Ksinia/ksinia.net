@@ -5,7 +5,7 @@
   },
   "basics": {
     "name": "Ksenia Gulyaeva",
-    "label": "Full-Stack / Frontend Developer",
+    "label": "Full-Stack Developer",
     "picture": "https://ksinia.net/resume.jpg",
     "email": "xsenia.gulyaeva@gmail.com",
     "phone": "+31633636096",
@@ -13,13 +13,13 @@
       "date": "1984-04-12"
     },
     "website": "https://ksinia.net/cv/",
-    "summary": "A fast learning Web Developer with a real passion for coding, solving problems and getting things done, who has experience in developing React web-applications with Node.js backend, as well as working with vanilla JavaScript and TypeScript.<br />Open to opportunities to learn new technologies and pick up a new backend/mobile language.<br />I have a spouse visa which allows me to work in the Netherlands without restrictions.",
+    "summary": "A fast learning Web Developer with a real passion for coding, solving problems and getting things done, who has experience in developing React and Vue.js web-applications with Node.js backend with PostgreSQL and Neo4j as a DB, as well as working with vanilla JavaScript and TypeScript.<br />Open to opportunities to learn new technologies and pick up a new backend/mobile languages.<br />I have a spouse visa which allows me to work in the Netherlands without restrictions.",
     "location": {
       "address": "",
       "postalCode": "1059AW",
       "city": "Amsterdam",
-      "countryCode": "",
-      "region": "NL"
+      "countryCode": "NL",
+      "region": ""
     },
     "profiles": [
       {
@@ -36,17 +36,33 @@
   },
   "work": [
     {
+      "company": "ABN Amro",
+      "position": "Software Developer",
+      "website": "https://www.abnamro.nl",
+      "location": "Amsterdam",
+      "startDate": "2020-09-01",
+      "summary": "ABN Amro is the third-largest bank in the Netherlands. I am working on an internal governance tool which supports company leadership with data for decision making by providing data insights.",
+      "highlights": [
+        "Onboarding new data sources and integrating them into the platform",
+        "Improving stability of the end-to-end tests by implementing industry best practices",
+        "Cross-team collaboration on shared libraries development",
+        "Implementing features involving changes within frontend, backend and the DB",
+        "Neo4j graph database requests optimization"
+      ]
+    },
+    {
       "company": "Self-employed",
       "position": "Full-Stack developer",
       "website": "https://github.com/Ksinia",
       "location": "Amsterdam",
       "startDate": "2020-02-01",
-      "summary": "After finishing Codaisseur I'm working 30+ hours a week on my personal projects using technologies I already know and new ones I want or need to use.",
+      "endDate": "2020-08-31",
+      "summary": "After finishing Codaisseur I've worked 30+ hours a week on my personal projects using technologies I already know and new ones I wanted or needed to use.",
       "highlights": [
         "<a href=\"https://erudit.ksinia.net\" target=\"_blank\">https://erudit.ksinia.net</a><br />Erudite: Scrabble-like mobile-friendly online multiplayer word game, up to 8 players in a room.<br />My most complex project to date, which is used daily by a dozen people. During the lifetime of the project I've learned a lot of things about development, data schema migrations, maintenance of the project, as well as about the customer interactions and prioritizing bugfixes and features development, and GitHub usage.",
         "<a href=\"https://scrolling-platformer.netlify.app\" target=\"_blank\">https://scrolling-platformer.netlify.app</a><br />Johny Flame: 2D side-scrolling platform game created for learning the Phaser game framework and trying out how hard would it be to create a platformer on a web page.<br />New technologies used: TypeScript, Phaser, Parcel",
         "<a href=\"https://melodic-dictation.netlify.app\" target=\"_blank\">https://melodic-dictation.netlify.app</a><br />Melodic Dictation: full-stack app for ear training by writing melodic dictations, e.g. write down notes for music you hear.<br />New libraries used: abcjs, web-midi-player",
-        "<a href=\"http://stats.radio-t.com/rlb/\" target=\"_blank\">http://stats.radio-t.com/rlb/</a><br />RLB-stats: pure JS frontend for existing podcast downloading statistics project written in Go. I created a web-page which supports four different JS charts libraries for visualizing the same data in different ways.<br />New libraries used: TauCharts, ECharts, AnyCharts, ApexCharts",
+        "<a href=\"http://stats.radio-t.com/rlb/\" target=\"_blank\">http://stats.radio-t.com/rlb/</a><br />RLB-stats: pure JS frontend for podcast downloading statistics project written in Go. I created a web-page which supports four different JS charts libraries for visualizing the same data in different ways.<br />New libraries used: TauCharts, ECharts, AnyCharts, ApexCharts",
         "<a href=\"https://game31.netlify.app\" target=\"_blank\">https://game31.netlify.app</a><br />Thirty-One online multiplayer card game, mobile-friendly. Created in collaboration with a teammate.<br />New technologies used: Node.js, React, Redux, Material-UI, Express.js, Sequelize"
       ]
     },
@@ -166,12 +182,12 @@
       "keywords": [
         "Node.js",
         "React",
+        "Vue.js",
         "Redux",
         "Express.js",
-        "Material-UI",
-        "HTML",
-        "CSS",
-        "REST APIs",
+        "Cypress",
+        "Jest",
+        "Neo4j",
         "Sequelize",
         "PostgreSQL",
         "SQL"
@@ -179,16 +195,16 @@
     },
     {
       "name": "Tools",
-      "keywords": ["VSCode", "Git", "GitHub"]
+      "keywords": ["IntelliJ IDEA", "VSCode", "Docker", "Git", "GitHub"]
     },
     {
       "name": "Soft skills",
       "keywords": [
         "Detail-oriented",
         "Responsible",
-        "Fast learner - became a web developer in 11 weeks",
-        "Participating in open-source projects with distributed teams",
-        "Good at multitasking - successful in a previous career"
+        "Fast learner",
+        "Good at multitasking",
+        "Participating in open-source projects with distributed teams"
       ]
     }
   ],

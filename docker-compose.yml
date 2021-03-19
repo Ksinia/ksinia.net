@@ -11,7 +11,7 @@ services:
     serve:
         image: paskal/jsonresume
         working_dir: /data/node_modules/jsonresume-theme-kendall-ksenia
-        command: serve
+        command: serve --theme .
         logging:
           driver: json-file
           options:
