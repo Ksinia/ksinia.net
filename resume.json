@@ -36,7 +36,7 @@
   },
   "work": [
     {
-      "company": "ABN Amro",
+      "name": "ABN AMRO",
       "position": "Software Developer",
       "website": "https://www.abnamro.nl",
       "location": "Amsterdam",
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "company": "Self-employed",
+      "name": "Self-employed",
       "position": "Full-Stack developer",
       "website": "https://github.com/Ksinia",
       "location": "Amsterdam",
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "company": "Codaisseur",
+      "name": "Codaisseur",
       "position": "Full-Stack Developer Trainee",
       "website": "https://codaisseur.com/",
       "location": "Amsterdam",
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "company": "CJ VFX (visual effects studio)",
+      "name": "CJ VFX (visual effects studio)",
       "position": "Python Software Developer",
       "website": "http://cjvfx.com/en/",
       "location": "Moscow",
@@ -93,7 +93,7 @@
       ]
     },
     {
-      "company": "Tesler Electronics, Paolo Conte, Revontuli Toys OY",
+      "name": "Tesler Electronics, Paolo Conte, Revontuli Toys OY",
       "position": "Procurement manager",
       "location": "Moscow",
       "startDate": "2010-01-01",
