@@ -1,7 +1,7 @@
 {
   "meta": {
     "theme": "kendall",
-    "canonical": "https://github.com/Ksinia/ksinia.net/blob/master/cv/resume.json"
+    "canonical": "https://github.com/Ksinia/ksinia.net/blob/master/resume.json"
   },
   "basics": {
     "name": "Ksenia Gulyaeva",
@@ -41,6 +41,7 @@
       "website": "https://www.abnamro.nl",
       "location": "Amsterdam",
       "startDate": "2020-09-01",
+      "endDate": "2021-12-01",
       "summary": "ABN Amro is the third-largest bank in the Netherlands. I am working on an internal governance tool that supports company leadership with data for decision making by providing data insights.",
       "highlights": [
         "Onboarding new data sources and integrating them into the platform",
