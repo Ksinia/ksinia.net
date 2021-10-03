@@ -47,7 +47,7 @@
         "Onboarding new data sources and integrating them into the platform",
         "Improving the stability of the end-to-end tests by implementing industry best practices",
         "Cross-team collaboration on shared libraries development",
-        "Implementing features involving changes within frontend, backend and the DB",
+        "Implementing features involving changes within frontend, backend and the DB (Neo4j, MongoDB)",
         "Neo4j graph database requests optimisation"
       ]
     },
@@ -129,7 +129,7 @@
         "Diving into Python, coursework: sockets client-server application using asyncio",
         "Creating web-services using Python",
         "Programming for Everybody (Getting Started with Python)",
-        "Beginning Game Programming with C#"
+        "Beginning Game Programming"
       ]
     },
     {
@@ -154,7 +154,7 @@
       "publisher": "AppStore",
       "releaseDate": "2018-10-14",
       "website": "https://itunes.apple.com/us/app/planet-parade/id1438973148",
-      "summary": "Mastermind-like video game I've developed using Xamarin framework for C#"
+      "summary": "Mastermind-like video game"
     },
     {
       "name": "Planet Parade game for Android",
@@ -175,11 +175,12 @@
         "Algorithms",
         "Data structures",
         "Client-server applications",
+        "Microservices",
         "Building and consuming APIs"
       ]
     },
     {
-      "name": "Web",
+      "name": "Web frameworks",
       "keywords": [
         "Node.js",
         "React",
@@ -188,7 +189,14 @@
         "Express.js",
         "Cypress",
         "Jest",
+        "SASS"
+      ]
+    },
+    {
+      "name": "Databases",
+      "keywords": [
         "Neo4j",
+        "MongoDB",
         "Sequelize",
         "PostgreSQL",
         "SQL"
