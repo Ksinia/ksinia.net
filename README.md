@@ -1,3 +1,5 @@
+[![Build Status](https://github.com/ksinia/ksinia.net/workflows/build/badge.svg)](https://github.com/ksinia/ksinia.net/actions/workflows/ci-build.yml)
+
 It's a source for [my resume](https://ksinia.net/cv/) build by [JSON Resume](https://jsonresume.org/) technology with [kendall theme](https://github.com/Ksinia/jsonresume-theme-kendall) with my alterations.
 
 ### How to build a resume
