@@ -13,7 +13,7 @@
       "date": "1984-04-12"
     },
     "url": "https://ksinia.net/cv/",
-    "summary": "As a highly motivated Web Developer, I possess a keen interest in coding, problem-solving and delivering high-quality results. With prior experience in developing web applications using React and Vue.js, alongside a Node.js backend with PostgreSQL and Neo4j as a database, I am also proficient in vanilla JavaScript and TypeScript.<br />I am constantly seeking opportunities to expand my skillset and learn new technologies.",
+    "summary": "As a highly motivated Web Developer, I possess a keen interest in coding, problem-solving, and delivering high-quality results. With prior experience in developing web applications using React and Vue.js, alongside a Node.js backend with PostgreSQL and Neo4j as a database, I am also proficient in vanilla JavaScript and TypeScript.<br />I am constantly seeking opportunities to expand my skillset and learn new technologies.",
     "location": {
       "address": "",
       "postalCode": "1059AW",
@@ -41,7 +41,7 @@
       "url": "https://cimpress.com",
       "location": "Amsterdam",
       "startDate": "2021-12-13",
-      "summary": "Cimpress Technology is a company building a mass customisation platform.",
+      "summary": "Cimpress Technology is a company that builds a mass customization platform.",
       "highlights": [
         "My primary role involves developing and refactoring a TypeScript Node.js and React logistics application used by factory logistics managers."
       ]
@@ -58,22 +58,22 @@
         "Onboarding new data sources and integrating them into the platform",
         "Improving the stability of the end-to-end tests by implementing industry best practices",
         "Cross-team collaboration on shared libraries development",
-        "Implementing features involving changes within the frontend, backend and database (Neo4j)",
-        "Neo4j graph database requests optimisation"
+        "Implementing features involving changes within the frontend, backend, and database (Neo4j)",
+        "Neo4j graph database requests optimization"
       ]
     },
     {
       "name": "Self-employed",
-      "position": "Full-Stack developer",
+      "position": "Full-Stack Developer",
       "url": "https://github.com/Ksinia",
       "location": "Amsterdam",
       "startDate": "2020-02-01",
       "endDate": "2020-08-31",
       "summary": "After finishing Codaisseur, I worked 30+ hours a week on my projects using the technologies I learned and the new ones I wanted or needed to use.",
       "highlights": [
-        "My most complex personal project to date is <a href=\"https://erudit.ksinia.net\" target=\"_blank\">Erudite</a>: a Scrabble-like mobile-friendly online multiplayer word game with up to 8 players in a room.<br /> During the project's lifetime, I've learned many things about development, data schema migrations, project maintenance, customer interactions and prioritising bugfixes and features development using GitHub.",
+        "My most complex personal project to date is <a href=\"https://erudit.ksinia.net\" target=\"_blank\">Erudite</a>: a Scrabble-like mobile-friendly online multiplayer word game with up to 8 players in a room.<br /> During the project's lifetime, I've learned many things about development, data schema migrations, project maintenance, customer interactions, and prioritizing bug fixes and features development using GitHub.",
         "<a href=\"https://scrolling-platformer.netlify.app\" target=\"_blank\">Johny Flame</a>: a 2D side-scrolling platform game I created to learn the Phaser game framework and try out how hard it would be to create a platformer on a web page.",
-        "<a href=\"https://stats.radio-t.com/rlb/\" target=\"_blank\">RLB-stats</a>: a pure JS frontend for podcast download analytics project written in Go. I created a web page that supports four different JS chart libraries to visualise the same data in different ways.",
+        "<a href=\"https://stats.radio-t.com/rlb/\" target=\"_blank\">RLB-stats</a>: a pure JS frontend for podcast download analytics project written in Go. I created a web page that supports four different JS chart libraries to visualize the same data in different ways.",
         "<a href=\"https://melodic-dictation.netlify.app\" target=\"_blank\">Melodic Dictation</a>: a full-stack app for ear training by writing melodic dictations."
       ]
     },
@@ -84,7 +84,7 @@
       "location": "Amsterdam",
       "startDate": "2019-10-01",
       "endDate": "2020-02-01",
-      "summary": "I completed an immersive 11-week on-site 40 hours a week course on full-stack development.<br />My project workflow included code reviews and quality assessments, standard practices such as product development, UX design, and domain modelling, working together in teams using tools like VSCode, Git, Github, and Slack.",
+      "summary": "I completed an immersive 11-week on-site 40 hours a week course on full-stack development.<br />My project workflow included code reviews and quality assessments, standard practices such as product development, UX design, and domain modeling, working together in teams using tools like VSCode, Git, Github, and Slack.",
       "highlights": [
         "Got 100% grades for every assignment during the course",
         "Created and published numerous projects in <a href=\"https://github.com/ksinia/\" target=\"_blank\">my GitHub account</a>"
@@ -105,7 +105,7 @@
     },
     {
       "name": "Tesler Electronics, Paolo Conte, Revontuli Toys OY",
-      "position": "Procurement manager",
+      "position": "Procurement Manager",
       "location": "Moscow",
       "startDate": "2010-01-01",
       "endDate": "2019-05-01",
@@ -153,7 +153,9 @@
         "countryCode": "RU"
       },
       "url": "https://www.msu.ru/en/",
-      "courses": ["Chinese language internship at Peking University in 2005"]
+      "courses": [
+        "Chinese language internship at Peking University in 2005"
+      ]
     }
   ],
   "awards": [],
@@ -209,7 +211,13 @@
     },
     {
       "name": "Tools",
-      "keywords": ["IntelliJ IDEA", "VSCode", "Docker", "Git", "GitHub"]
+      "keywords": [
+        "IntelliJ IDEA",
+        "VSCode",
+        "Docker",
+        "Git",
+        "GitHub"
+      ]
     },
     {
       "name": "Soft skills",
