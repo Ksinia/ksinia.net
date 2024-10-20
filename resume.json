@@ -37,18 +37,18 @@
   "work": [
     {
       "name": "Cimpress Technology",
-      "position": "Software Developer",
+      "position": "Software Engineer",
       "url": "https://cimpress.com",
       "location": "Amsterdam",
       "startDate": "2021-12-13",
       "summary": "Cimpress Technology is a company that builds a mass customization platform.",
       "highlights": [
-        "My primary role involves developing and refactoring a TypeScript Node.js and React logistics application used by factory logistics managers."
+        "My role involves developing, refactoring, and supporting applications and APIs in the logistics domain using TypeScript, Node.js, React, NextJS, and C#.</br>Our most complex application enables logistics managers to manage contracts with carriers. It consists of a user interface and a backend with business logic. Information from this service is then used to calculate shipping times and costs through our high-load API, which is accessed by other businesses as part of the checkout process for end customers."
       ]
     },
     {
       "name": "ABN AMRO",
-      "position": "Software Developer",
+      "position": "Software Engineer",
       "url": "https://www.abnamro.com",
       "location": "Amsterdam",
       "startDate": "2020-09-01",
@@ -181,6 +181,7 @@
         "JavaScript",
         "TypeScript",
         "Node.js",
+        "C#",
         "Algorithms",
         "Data structures",
         "Client-server applications",
@@ -192,12 +193,14 @@
       "name": "Web frameworks",
       "keywords": [
         "React",
+        "NextJS",
         "Vue.js",
         "Redux",
         "Express.js",
         "Cypress",
         "Jest",
-        "SASS"
+        "SASS",
+        "Tailwind CSS"
       ]
     },
     {
@@ -215,6 +218,7 @@
         "IntelliJ IDEA",
         "VSCode",
         "Docker",
+        "Terraform",
         "Git",
         "GitHub"
       ]
