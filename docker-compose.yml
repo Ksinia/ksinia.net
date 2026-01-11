@@ -1,15 +1,14 @@
-version: '2'
 services:
 
   build:
-    image: paskal/jsonresume
-    command: export --theme kendall-ksenia /tmp/resume_output/gulyaeva.html
+    image: ghcr.io/paskal/jsonresume
+    command: export --theme kendall /tmp/resume_output/gulyaeva.html
     volumes:
       - ./public/cv/:/tmp/resume_output/
       - ./resume.json:/data/resume.json:ro
 
   serve:
-    image: paskal/jsonresume
+    image: ghcr.io/paskal/jsonresume
     working_dir: /data/node_modules/jsonresume-theme-kendall-ksenia
     command: serve --theme .
     logging:

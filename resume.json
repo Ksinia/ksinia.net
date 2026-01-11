@@ -5,7 +5,7 @@
   },
   "basics": {
     "name": "Ksenia Gulyaeva",
-    "label": "Full-Stack Developer",
+    "label": "Software Engineer",
     "image": "https://ksinia.net/photo.jpg",
     "email": "xsenia.gulyaeva@gmail.com",
     "phone": "+31633636096",
@@ -13,7 +13,7 @@
       "date": "1984-04-12"
     },
     "url": "https://ksinia.net/cv/",
-    "summary": "As a highly motivated Web Developer, I possess a keen interest in coding, problem-solving, and delivering high-quality results. With prior experience in developing web applications using React and Vue.js, alongside a Node.js backend with PostgreSQL and Neo4j as a database, I am also proficient in vanilla JavaScript and TypeScript.<br />I am constantly seeking opportunities to expand my skillset and learn new technologies.",
+    "summary": "Full-stack developer with 5+ years of experience building web applications in TypeScript, React, and Node.js. Currently at Cimpress, developing logistics systems that process tens of thousands of shipping calculations daily for B2C checkout flows. Previously built internal tooling at ABN AMRO with Neo4j graph database optimization. Career changer from procurement (2010-2019), started programming in 2019.",
     "location": {
       "address": "",
       "postalCode": "1059AW",
@@ -37,13 +37,17 @@
   "work": [
     {
       "name": "Cimpress Technology",
-      "position": "Software Engineer",
+      "position": "Software Engineer II",
       "url": "https://cimpress.com",
       "location": "Amsterdam",
       "startDate": "2021-12-13",
-      "summary": "Cimpress Technology is a company that builds a mass customization platform.",
+      "summary": "Full-stack development on Cimpress's mass customization platform, focusing on logistics systems that calculate shipping times and costs for B2B customers' checkout flows.",
       "highlights": [
-        "My role involves developing, refactoring, and supporting applications and APIs in the logistics domain using TypeScript, Node.js, React, NextJS, and C#.</br>Our most complex application enables logistics managers to manage contracts with carriers. It consists of a user interface and a backend with business logic. Information from this service is then used to calculate shipping times and costs through our high-load API, which is accessed by other businesses as part of the checkout process for end customers."
+        "Promoted to Software Engineer II in 2025.",
+        "Develop and maintain high-load shipping calculation API processing tens of thousands of requests daily, used in checkout flows across Cimpress's B2B customer network.",
+        "Built carrier contract management application (React frontend, Node.js/TypeScript backend) enabling logistics managers to configure shipping rates and rules.",
+        "Shipped multiple complex features solving specific logistics problems including rate calculation, carrier selection, and delivery time estimation.",
+        "Work across full stack: TypeScript, Node.js, React, Next.js, and C#."
       ]
     },
     {
@@ -53,93 +57,45 @@
       "location": "Amsterdam",
       "startDate": "2020-09-01",
       "endDate": "2021-12-01",
-      "summary": "ABN AMRO is the third-largest bank in the Netherlands. As a software developer, I worked on an internal governance tool that supports company leadership with data for decision-making by providing data insights.",
+      "summary": "Developed internal governance platform providing data insights for company leadership decision-making at the Netherlands' third-largest bank.",
       "highlights": [
-        "Onboarding new data sources and integrating them into the platform",
-        "Improving the stability of the end-to-end tests by implementing industry best practices",
-        "Cross-team collaboration on shared libraries development",
-        "Implementing features involving changes within the frontend, backend, and database (Neo4j)",
-        "Neo4j graph database requests optimization"
+        "Implemented full-stack features spanning frontend, backend, and Neo4j graph database.",
+        "Optimized Neo4j graph database queries for performance.",
+        "Improved E2E test stability by implementing industry best practices.",
+        "Collaborated cross-team on shared library development.",
+        "Onboarded and integrated new data sources into the platform."
       ]
     },
     {
-      "name": "Self-employed",
-      "position": "Full-Stack Developer",
-      "url": "https://github.com/Ksinia",
-      "location": "Amsterdam",
-      "startDate": "2020-02-01",
-      "endDate": "2020-08-31",
-      "summary": "After finishing Codaisseur, I worked 30+ hours a week on my projects using the technologies I learned and the new ones I wanted or needed to use.",
-      "highlights": [
-        "My most complex personal project to date is <a href=\"https://erudit.ksinia.net\" target=\"_blank\">Erudite</a>: a Scrabble-like mobile-friendly online multiplayer word game with up to 8 players in a room.<br /> During the project's lifetime, I've learned many things about development, data schema migrations, project maintenance, customer interactions, and prioritizing bug fixes and features development using GitHub.",
-        "<a href=\"https://scrolling-platformer.netlify.app\" target=\"_blank\">Johny Flame</a>: a 2D side-scrolling platform game I created to learn the Phaser game framework and try out how hard it would be to create a platformer on a web page.",
-        "<a href=\"https://stats.radio-t.com/rlb/\" target=\"_blank\">RLB-stats</a>: a pure JS frontend for podcast download analytics project written in Go. I created a web page that supports four different JS chart libraries to visualize the same data in different ways.",
-        "<a href=\"https://melodic-dictation.netlify.app\" target=\"_blank\">Melodic Dictation</a>: a full-stack app for ear training by writing melodic dictations."
-      ]
-    },
-    {
-      "name": "Codaisseur",
-      "position": "Full-Stack Developer Trainee",
-      "url": "https://codaisseur.com/",
-      "location": "Amsterdam",
-      "startDate": "2019-10-01",
-      "endDate": "2020-02-01",
-      "summary": "I completed an immersive 11-week on-site 40 hours a week course on full-stack development.<br />My project workflow included code reviews and quality assessments, standard practices such as product development, UX design, and domain modeling, working together in teams using tools like VSCode, Git, Github, and Slack.",
-      "highlights": [
-        "Got 100% grades for every assignment during the course",
-        "Created and published numerous projects in <a href=\"https://github.com/ksinia/\" target=\"_blank\">my GitHub account</a>"
-      ]
-    },
-    {
-      "name": "CJ VFX (visual effects studio)",
-      "position": "Python Software Developer",
-      "url": "https://cjvfx.com/en/",
-      "location": "Moscow",
-      "startDate": "2019-06-01",
-      "endDate": "2019-08-01",
-      "summary": "My first programming job was at a visual effects studio, where I supported internal teams' needs. I had to give it up because of relocation to Amsterdam.",
-      "highlights": [
-        "Created backup/recovery script for corporate files library and visual interface for its configuration in PyQT",
-        "Started the design and implementation of the VFX render manager interface"
-      ]
-    },
-    {
-      "name": "Tesler Electronics, Paolo Conte, Revontuli Toys OY",
+      "name": "Procurement",
       "position": "Procurement Manager",
       "location": "Moscow",
       "startDate": "2010-01-01",
       "endDate": "2019-05-01",
-      "summary": "Before switching to software development, I worked in procurement. My primary responsibilities involved searching for suppliers in China, negotiating purchasing prices and other conditions, localizing product packaging and manuals, and controlling the orders from placement until delivery.",
+      "summary": "Supplier management, price negotiation, and order logistics at consumer electronics and toy companies (Tesler Electronics, Paolo Conte, Revontuli Toys).",
       "highlights": []
+    }
+  ],
+  "projects": [
+    {
+      "name": "Erudite",
+      "description": "Scrabble-like online multiplayer word game",
+      "url": "https://erudit.ksinia.net",
+      "highlights": [
+        "Full-stack application: Node.js backend, React web frontend, React Native mobile app.",
+        "Supports up to 8 players per room with real-time gameplay.",
+        "Managed production deployment, data schema migrations, and user feedback prioritization.",
+        "Active project with real users; ongoing maintenance and feature development."
+      ]
     }
   ],
   "education": [
     {
-      "institution": "Codaisseur Academy for Full-Stack Web Development",
-      "area": "Web development",
+      "institution": "Codaisseur Academy",
+      "area": "Full-Stack Web Development",
       "startDate": "2019-10-01",
       "endDate": "2020-02-01",
-      "courses": [
-        "HTML (HTML5) & CSS (CSS3, Sass)",
-        "JavaScript (incl. ES6) and TypeScript",
-        "APIs usage and development",
-        "PostgreSQL, Sequilize, SQL",
-        "Node.js",
-        "React, Redux"
-      ]
-    },
-    {
-      "institution": "Coursera",
-      "area": "Software Development",
-      "startDate": "2018-11-01",
-      "endDate": "2019-02-13",
-      "url": "https://www.coursera.org",
-      "courses": [
-        "Diving into Python, coursework: sockets client-server application using asyncio",
-        "Creating web services using Python",
-        "Programming for Everybody (Getting Started with Python)",
-        "Beginning Game Programming"
-      ]
+      "summary": "Intensive 11-week full-stack bootcamp covering React, Redux, Node.js, PostgreSQL, TypeScript."
     },
     {
       "institution": "Lomonosov Moscow State University",
@@ -147,102 +103,66 @@
       "studyType": "Master's degree",
       "startDate": "2000-09-01",
       "endDate": "2006-09-01",
-      "gpa": "",
-      "location": {
-        "city": "Moscow",
-        "countryCode": "RU"
-      },
-      "url": "https://www.msu.ru/en/",
-      "courses": [
-        "Chinese language internship at Peking University in 2005"
-      ]
+      "url": "https://www.msu.ru/en/"
     }
   ],
   "awards": [],
-  "publications": [
-    {
-      "name": "Planet Parade game for iOS",
-      "publisher": "AppStore",
-      "releaseDate": "2018-10-14",
-      "summary": "Mastermind-like video game"
-    },
-    {
-      "name": "Planet Parade game for Android",
-      "publisher": "GooglePlay",
-      "releaseDate": "2018-10-29",
-      "summary": "Android port of the iOS game"
-    }
-  ],
+  "publications": [],
   "skills": [
     {
-      "name": "Programming",
-      "level": "",
+      "name": "Languages",
       "keywords": [
-        "JavaScript",
         "TypeScript",
-        "Node.js",
-        "C#",
-        "Algorithms",
-        "Data structures",
-        "Client-server applications",
-        "Microservices",
-        "Building and consuming APIs"
+        "JavaScript",
+        "C#"
       ]
     },
     {
-      "name": "Web frameworks",
+      "name": "Frontend",
       "keywords": [
         "React",
-        "NextJS",
+        "Next.js",
+        "React Native",
         "Vue.js",
-        "Redux",
+        "Redux"
+      ]
+    },
+    {
+      "name": "Backend",
+      "keywords": [
+        "Node.js",
         "Express.js",
-        "Cypress",
-        "Jest",
-        "SASS",
-        "Tailwind CSS"
+        "REST APIs"
       ]
     },
     {
       "name": "Databases",
       "keywords": [
-        "Neo4j",
-        "Sequelize",
         "PostgreSQL",
-        "SQL"
+        "Neo4j"
       ]
     },
     {
       "name": "Tools",
       "keywords": [
-        "IntelliJ IDEA",
-        "VSCode",
         "Docker",
         "Terraform",
         "Git",
-        "GitHub"
-      ]
-    },
-    {
-      "name": "Soft skills",
-      "keywords": [
-        "Detail-oriented",
-        "Responsible",
-        "Fast learner",
-        "Good at multitasking",
-        "Participating in open-source projects with distributed teams"
+        "Cypress",
+        "Jest"
       ]
     }
   ],
-  "languages": [
+  "languages": [],
+  "interests": [
     {
-      "language": "English",
-      "fluency": "fluent"
+      "name": "Chinese tea"
     },
     {
-      "language": "Dutch",
-      "fluency": "A2"
+      "name": "Photography"
+    },
+    {
+      "name": "Watercolour painting"
     }
-  ],
-  "interests": []
+  ]
 }
