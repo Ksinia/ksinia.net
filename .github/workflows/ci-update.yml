@@ -7,6 +7,7 @@ on:
     tags:
     paths:
       - "resume.json"
+      - "docker-compose.yml"
       - ".github/workflows/ci-update.yml"
 
 jobs:
